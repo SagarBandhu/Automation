@@ -2,8 +2,3 @@
 /*Java8 and Cucumber*/
 /*Method specific comments are found in code*/
 
-/*
-Assessment.java--> App which takes date input and displayed traded and not traded instrumet list.(qa.app package)
-qa.testdata --> package which contains input text files.
-Trade.feature-->Cucucmber feature file contains scenario in Gherkin.(qa.feature package)
-*/
