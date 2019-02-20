@@ -1,0 +1,8 @@
+/*Please check the path for inst.txt and trades.txt files*/
+/*Java8 and Cucumber*/
+/*
+qa.testdata-> Package contains input  files
+qa.feature -> Package contains feature files
+qa.stepDefinations -> Package contains step Defination file
+qa.testRunner -> Runner class
+*/

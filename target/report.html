@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.501831">
+<testcase classname="Trade Feature" name="Traded Instrument List with Volume" time="0.495846">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at qa.stepDefinations.TradeSteps.lambda$0(TradeSteps.java:132)&#13;&#10;&#9;at java.util.HashMap.forEach(HashMap.java:1289)&#13;&#10;&#9;at qa.stepDefinations.TradeSteps.instrument_list_with_traded_volume_should_displayed(TradeSteps.java:122)&#13;&#10;&#9;at ✽.Then Instrument list with traded volume should displayed(C:/Users/HP/git/Automation/Automation/src/main/java/qa/feature/Trade.feature:11)&#13;&#10;"><![CDATA[Given Trades file has trade transaction details.............................passed
+Given Instrument file has master instrument list............................passed
+When User enters from 01/01/2001............................................passed
+When User enters to 01/12/2001..............................................passed
+Then Instrument list with traded volume should displayed....................failed
+
+StackTrace:
+java.lang.NullPointerException
+	at qa.stepDefinations.TradeSteps.lambda$0(TradeSteps.java:132)
+	at java.util.HashMap.forEach(HashMap.java:1289)
+	at qa.stepDefinations.TradeSteps.instrument_list_with_traded_volume_should_displayed(TradeSteps.java:122)
+	at ✽.Then Instrument list with traded volume should displayed(C:/Users/HP/git/Automation/Automation/src/main/java/qa/feature/Trade.feature:11)
+]]></failure>
+</testcase>
+<testcase classname="Trade Feature" name="Traded Instrument List with Volume 2" time="0.005985">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at qa.stepDefinations.TradeSteps.lambda$0(TradeSteps.java:132)&#13;&#10;&#9;at java.util.HashMap.forEach(HashMap.java:1289)&#13;&#10;&#9;at qa.stepDefinations.TradeSteps.instrument_list_with_traded_volume_should_displayed(TradeSteps.java:122)&#13;&#10;&#9;at ✽.Then Instrument list with traded volume should displayed(C:/Users/HP/git/Automation/Automation/src/main/java/qa/feature/Trade.feature:11)&#13;&#10;"><![CDATA[Given Trades file has trade transaction details.............................passed
+Given Instrument file has master instrument list............................passed
+When User enters from 05/01/2019............................................passed
+When User enters to 02/02/2019..............................................passed
+Then Instrument list with traded volume should displayed....................failed
+
+StackTrace:
+java.lang.NullPointerException
+	at qa.stepDefinations.TradeSteps.lambda$0(TradeSteps.java:132)
+	at java.util.HashMap.forEach(HashMap.java:1289)
+	at qa.stepDefinations.TradeSteps.instrument_list_with_traded_volume_should_displayed(TradeSteps.java:122)
+	at ✽.Then Instrument list with traded volume should displayed(C:/Users/HP/git/Automation/Automation/src/main/java/qa/feature/Trade.feature:11)
+]]></failure>
+</testcase>
+</testsuite>

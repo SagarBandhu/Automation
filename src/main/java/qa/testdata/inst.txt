@@ -1,0 +1,5 @@
+InstId,Instdname
+IN1,Google
+IN2,IBM
+IN3,Microsoft
+IN4,Apple
